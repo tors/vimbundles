@@ -55,8 +55,7 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
-" ejs & js
-au BufNewFile,BufRead *.ejs set filetype=html
+" js filetypes
 au BufNewFile,BufRead *.json set ft=javascript
 au BufRead,BufNewFile *.scss set filetype=css
 
