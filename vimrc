@@ -16,8 +16,8 @@ set nocursorline
 
 " colorscheme
 set t_Co=256
-set background=light
-colorscheme base16-bright
+set background=dark
+colorscheme base16-default
 
 " nerdtree
 map <F2> :NERDTreeToggle \| :silent NERDTreeMirror<CR>
